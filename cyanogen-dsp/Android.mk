@@ -48,4 +48,6 @@ LOCAL_MODULE_CLASS := ETC
 
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc
 
+LOCAL_CFLAGS := fno-strict-aliasing
+
 include $(BUILD_PREBUILT)
